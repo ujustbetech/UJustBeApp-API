@@ -1,0 +1,1214 @@
+{
+  "ReRoutes": [
+
+    // Service for Auth Port - 62605
+    {
+      "DownstreamPathTemplate": "/api/login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/login",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Adminpartnerregister",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/Adminpartnerregister",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Get-VerisonDetails",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-VerisonDetails",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/forgot-password",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/forgot-password",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/admin-forgot-password",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-forgot-password",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/change-password",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/change-password",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/email-check",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/email-check",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/mobile-check",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/mobile-check",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/register",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/otp/resend-otp",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/resend-otp",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/otp/validate-otp",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/validate-otp",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/enroll-partner",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/enroll-partner",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/enroll-partner/Details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/enroll-partner/Details",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/upload-pan",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/upload-pan",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/mentor/mentor-list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/mentor/mentor-list",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/upload-aadhar",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/upload-aadhar",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/upload-bank-details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/upload-bank-details",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user-info",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/user-info",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/user-info/UpdateOtherDetails",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/UpdateOtherDetails",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/admin-register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-register",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/admin-login",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-login",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/admin-user-info",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-user-info",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Get-countries",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-countries",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/admin-user-info/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin-user-list",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/admin-register/change-password",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/admin/change-password",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    // Service for Business Port - 49956
+    {
+      "DownstreamPathTemplate": "/api/category/all",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/category/all",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-business",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-business",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-company",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-company",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-business-banner",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-business-banner",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-company-logo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-company-logo",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-company-address",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-company-address",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-business",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-business",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-product-service",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-product-service",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-product-image",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-product-image",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/product-service/all",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/product-service/all",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/product-service/details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/product-service/details",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/client-partner/details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/client-partner/details",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-business",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/update-business",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/approve-business-kyc",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/approve-business-kyc",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    // Service for Report Port - 58577
+    {
+      "DownstreamPathTemplate": "/api/dashboard/ujb-status",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58577
+        }
+      ],
+      "UpstreamPathTemplate": "/dashboard/ujb-status",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/dashboard/partner-stats",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58577
+        }
+      ],
+      "UpstreamPathTemplate": "/dashboard/partner-stats",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/error-log/insert",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58577
+        }
+      ],
+      "UpstreamPathTemplate": "/error-log/insert",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    // Service for Search Port - 63928
+    {
+      "DownstreamPathTemplate": "/api/search-dashboard/business",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63928
+        }
+      ],
+      "UpstreamPathTemplate": "/search-dashboard/business",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/search-dashboard/suggestion",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 63928
+        }
+      ],
+      "UpstreamPathTemplate": "/search-dashboard/suggestion",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    // Service for Promotion Port - 58975
+    {
+      "DownstreamPathTemplate": "/api/add-promotion-service",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58975
+        }
+      ],
+      "UpstreamPathTemplate": "/add-promotion-service",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/promotion/Get-promotion/{size}/{page}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58975
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-promotion/{size}/{page}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/promotion/Get-PromotionDetails-ById",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58975
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-PromotionDetails-ById",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/promotion/Get-PromotionMedia/{Page}/{Size}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58975
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-PromotionMedia/{Page}/{Size}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    // Service for Partners Port - 51664
+    {
+      "DownstreamPathTemplate": "/api/partner/Get-partners/{size}/{page}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-partners/{size}/{page}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetPartnerDetails/By-Id",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/GetPartnerDetails/By-Id",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/ApproveDisapprove",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Approve-Disapprove-BPCP",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-partner-profile/Update-MobileNo",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Update-MobileNo",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/update-partner-profile/UpdateProfile",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/UpdateProfile",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/update-partner-address",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/update-partner-address",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/update-partner-locations",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/update-partner-locations",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/update-profile-image",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/update-profile-image",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/GetConnectors",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/GetConnectors",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    // Service for Lead-Management Port - 57768
+    {
+      "DownstreamPathTemplate": "/api/referral/details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/details",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/referral/create",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/create",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Payment-Details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/Payment-Details",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Payment-Details/Get-PaymentList",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-PaymentList",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Payment-Details/ById",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/ById",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Payment-Details/Get-Balanace",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-Balanace",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral/lookup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/lookup",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral/update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/referral-status/update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral-status/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral-status/Get-status/{statusId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral-status/Get-status/{statusId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral-status/Get-Dependentstatus/{statusId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral-status/Get-Dependentstatus/{statusId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral/updateDealValue",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/updateDealValue",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/referral-list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral-list",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/referral/GetProductDetails/{LeadId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 57768
+        }
+      ],
+      "UpstreamPathTemplate": "/referral/GetProductDetails/{LeadId}",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    // Service for Subscription Port - 51242
+    {
+      "DownstreamPathTemplate": "/api/add-Fee-service/Get-FeeType",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-FeeType",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/add-Fee-service/AdjustRegisterationFee",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/AdjustRegisterationFee",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/add-Fee-service/AddPaymentDetails",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/AddPaymentDetails",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/add-Fee-service/Get-FeeBreakup",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-FeeBreakup",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Get-UserAutocomplete",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/Get-UserAutocomplete",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/User/Details",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51242
+        }
+      ],
+      "UpstreamPathTemplate": "/User/Details",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+
+    // Service for Notification Port - 50712
+    {
+      "DownstreamPathTemplate": "/api/notification/list",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50712
+        }
+      ],
+      "UpstreamPathTemplate": "/notification/list",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/notification/update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50712
+        }
+      ],
+      "UpstreamPathTemplate": "/notification/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/fcmtoken/update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 50712
+        }
+      ],
+      "UpstreamPathTemplate": "/fcmtoken/update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    // Service for ExcelUpload Port - 51462
+    {
+      "DownstreamPathTemplate": "/api/upload-Excel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51462
+        }
+      ],
+      "UpstreamPathTemplate": "/upload-Excel",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/search-state/{countryId}/{searchTerm}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 62605
+        }
+      ],
+      "UpstreamPathTemplate": "/search-state/{countryId}/{searchTerm}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+
+    //service for Legal Agreement
+    {
+      "DownstreamPathTemplate": "/api/agreement-status/Partner-agreement-update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 54492
+        }
+      ],
+      "UpstreamPathTemplate": "/Partner-agreement-update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/agreement-status/ListedPartner-agreement-update",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 54492
+        }
+      ],
+      "UpstreamPathTemplate": "/ListedPartner-agreement-update",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Update-BirthDate",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Update-BirthDate",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Delete-product/ProductService",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/ProductService",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Delete-product/Images",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 49956
+        }
+      ],
+      "UpstreamPathTemplate": "/Delete-product/Image",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Report/Referral",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58577
+        }
+      ],
+      "UpstreamPathTemplate": "/Report/Referral",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetPartnerDetails/Partner-Profile",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Partner-Profile",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetPartnerDetails/Partner-KYC",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Partner-KYC",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/update-partner-appversion",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Update/CurrentAppVersion",
+      "UpstreamHttpMethod": [ "Post" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Report/Referral/Excel",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58577
+        }
+      ],
+      "UpstreamPathTemplate": "/Excel/Referral",
+      "UpstreamHttpMethod": [ "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/add-promotion-service",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 58975
+        }
+      ],
+      "UpstreamPathTemplate": "/Promotion/LpList",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetAllUserDetails",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/GetAllUserDetails",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/GetPartnerDetails/Partner-Active",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 51664
+        }
+      ],
+      "UpstreamPathTemplate": "/Partner-Active",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:60906"
+  }
+}
